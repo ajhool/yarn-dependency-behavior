@@ -6,7 +6,8 @@
   "author": "Aidan Hoolachan",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": ["**"]
+  }
 }
