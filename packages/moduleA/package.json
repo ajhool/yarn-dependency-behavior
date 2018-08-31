@@ -8,6 +8,6 @@
   "private": false,
   "devDependencies": {},
   "dependencies": {
-    "moduleB": "../moduleB"
+    "moduleB": "./packages/moduleB"
   }
 }

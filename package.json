@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Aidan Hoolachan",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
