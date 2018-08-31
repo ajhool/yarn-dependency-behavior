@@ -1,0 +1,12 @@
+{
+  "name": "moduleD",
+  "version": "1.0.0",
+  "description": "Has a unique dependency that has a unique devDependency",
+  "main": "index.js",
+  "author": "Aidan Hoolachan",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "pretty-ms": "^3.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "moduleE",
+  "version": "1.0.0",
+  "description": "Has a unique dependency that has a unique dev dependency",
+  "main": "index.js",
+  "author": "Aidan Hoolachan",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "is-sorted": "^1.0.5"
+  }
+}

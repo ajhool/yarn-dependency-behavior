@@ -1,0 +1,13 @@
+{
+  "name": "moduleC",
+  "version": "1.0.0",
+  "description": "Has a dev dependency",
+  "main": "index.js",
+  "author": "Aidan Hoolachan",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {
+    "array-last": "^1.3.0"
+  }
+}

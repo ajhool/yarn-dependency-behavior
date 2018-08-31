@@ -1,0 +1,9 @@
+{
+  "name": "demo-production-install",
+  "version": "1.0.0",
+  "description": "Simple repository to identify dependency behavior",
+  "main": "index.js",
+  "author": "Aidan Hoolachan",
+  "license": "MIT",
+  "private": true
+}

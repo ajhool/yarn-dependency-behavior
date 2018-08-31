@@ -1,0 +1,13 @@
+{
+  "name": "moduleA",
+  "version": "1.0.0",
+  "description": "Depends directly on moduleB",
+  "main": "index.js",
+  "author": "Aidan Hoolachan",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {
+    "moduleB": "../moduleB"
+  }
+}
