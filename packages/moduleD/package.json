@@ -6,7 +6,8 @@
   "author": "Aidan Hoolachan",
   "license": "MIT",
   "private": false,
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "pretty-ms": "^3.2.0"
   }
 }
