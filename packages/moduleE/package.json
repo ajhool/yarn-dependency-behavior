@@ -6,8 +6,8 @@
   "author": "Aidan Hoolachan",
   "license": "MIT",
   "private": false,
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "is-sorted": "^1.0.5"
-  }
+  },
+  "devDependencies": {}
 }
