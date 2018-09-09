@@ -1,10 +1,13 @@
 # Simple repository for isolating dependency behavior for yarn Workspaces
 
-To execute test script, download the `toTest.sh` file and execute it in a clean directory -- this script is included in the repository but needs to be executed in a parent directory because it will clone this repository 3x into three child directories.
+To execute the test script, download the `toTest.sh` file and execute it in a clean directory -- this script is included in the repository but needs to be executed in a parent directory because it will clone this repository 3x into three child directories.
 
 `yarn install` works correctly
+
 `yarn install --production` works correctly
+
 `yarn install && yarn install --production` does NOT work correctly
+
 
 ## moduleA, moduleB, moduleC are related in the following way:
 - moduleA depends on moduleB
