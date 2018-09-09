@@ -6,6 +6,7 @@ git clone https://github.com/ajhool/yarn-dependency-behavior.git production-beha
 git clone https://github.com/ajhool/yarn-dependency-behavior.git dev-behavior &&
 git clone https://github.com/ajhool/yarn-dependency-behavior.git hybrid-behavior &&
 
+# using --force does not change behavior
 cd production-behavior && yarn install --production --force && cd ..
 cd dev-behavior && yarn install --force && cd ..
 cd hybrid-behavior && yarn install && yarn install --production --force && cd ..
